@@ -7,10 +7,13 @@ const app = express();
 
 app.use('/doc', function(req, res, next) {
   res.end(`Documentation http://expressjs.com/`);
+
+  // Write a fucntion below
+
 });
 
 app.use(function(req, res, next) {
-  res.end("Hello World!");
+  res.end("Hello world! I'm live!");
 });
 
 app.listen(config.port, function() {

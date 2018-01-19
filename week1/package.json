@@ -1,20 +1,14 @@
 {
-  "name": "cl_project",
+  "name": "week1",
   "version": "1.0.0",
-  "description": "This is a sample node project",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "code",
-    "louisville",
-    "sample",
-    "project"
-  ],
-  "author": "Aaron W. Johnson",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.16.2"
   }
 }
